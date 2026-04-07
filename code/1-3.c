@@ -4,10 +4,10 @@ void print_reverse(int *arr, int size){
     int *start = arr;
     arr = arr + size-1;
     while(start<arr){
-        print(*arr+' ');
+        printf("%d ",*arr);
         arr--;
     }
-    print(*arr);
+    printf("%d",*arr);
 }
 
 int main(){
